@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3278349859869386220
+--- !u!1 &410887895095547335
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,42 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3278349859869386210}
-  - component: {fileID: 5137146539159197533}
+  - component: {fileID: 410887895095547329}
+  - component: {fileID: 410887895095547328}
   m_Layer: 0
-  m_Name: LevelHandler
-  m_TagString: LevelHandler
+  m_Name: LevelGenerator
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3278349859869386210
+--- !u!4 &410887895095547329
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3278349859869386220}
+  m_GameObject: {fileID: 410887895095547335}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.8860664, y: -4.847315, z: -1.4521912}
+  m_LocalPosition: {x: 18.5, y: 4.3692427, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5137146539159197533
+--- !u!114 &410887895095547328
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3278349859869386220}
+  m_GameObject: {fileID: 410887895095547335}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1e8b635b88dc0d49a87ae2f096acf79, type: 3}
+  m_Script: {fileID: 11500000, guid: abdca32475f028444a40cecd906e06be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7331897484187528838, guid: 4389396e4dd519e4e87ca8a6a321d341, type: 3}
-  player: {fileID: 0}
-  spawn: {fileID: 0}
-  end: {fileID: 0}
+  objects:
+  - {fileID: 8446135215736401583, guid: 0a4f0ce1f5c4b38488c3d76be2f2a9f0, type: 3}
+  levelHandler: {fileID: 3278349859869386220, guid: 45fe09bc5ebe0d54cb8020a26218e265, type: 3}
